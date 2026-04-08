@@ -11,7 +11,7 @@ box-sizing: border-box;
 /* ESTILOS GENERALES (Selector de etiqueta)*/
 body {
 font-family: 'Inter', sans-serif;
-background-image: url(../img/street.jpg);
+background-color: rgb(83, 69, 172);
 background-size: contain;
 color: #333;
 line-height: 1.6;
@@ -32,7 +32,21 @@ flex-direction: row;
 align-items: center;
 justify-content: space-evenly; 
 }
-
+ nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family:  'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+ }
+ nav a{
+    color: #fff;
+    text-decoration: none;
+ }
 .titulo {
 font-family: 'Special+Elite', cursive; /* Fuente tipo máquina de escribir */
 letter-spacing: 5px;
