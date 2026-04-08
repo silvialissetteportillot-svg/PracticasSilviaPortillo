@@ -43,6 +43,20 @@ justify-content: space-evenly;
     font-weight: 200;
     font-size: 1.5rem;
  }
+
+ nav li{
+ background-color: black;
+    border-radius: 10px;
+ }
+
+  nav li:hover{
+ background-color: rgb(110, 11, 89);
+    border-radius: 10px;
+ }
+
+ 
+
+
  nav a{
     color: #fff;
     text-decoration: none;
